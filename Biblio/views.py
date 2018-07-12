@@ -1,3 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render    
 
-# Create your views here.
+def Livro_list(request):
+    return render(request, 'Biblio/Livro_list.html', {})
